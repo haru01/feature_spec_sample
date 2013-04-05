@@ -1,24 +1,26 @@
-== Install Ruby
+## Install Ruby
 
 - https://github.com/sstephenson/rbenv/
 - https://github.com/sstephenson/ruby-build
 
-==  Install Bundler
+##  Install Bundler
 
     gem install bundler
 
-== setup
+## setup
 
     bundle install
+
 or
+
     bundle install --path=vendor/bundle
 
 
-==  excecute
+##  excecute
 
     bundle exec rspec spec/features
 
-== info
+## info
 - http://rubydoc.info/github/jnicklas/capybara/master
 - https://github.com/jnicklas/capybara
 - https://www.relishapp.com/rspec/rspec-rails/v/2-13/docs/feature-specs/feature-spec
