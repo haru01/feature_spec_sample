@@ -1,6 +1,10 @@
-require "spec_helper"
+require 'spec_helper'
 
 feature 'Google search' do
+  background do
+    Capybara.app_host = 'http://www.google.co.jp'
+  end
+
   scenario 'search' do
     visit '/'
     fill_in 'gbqfq', with: 'bdd wikipedia'
